@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;https://github.com/AFLOY/Chat-sys/blob/master/Chat%20sys/Form1.cs
+using System.Collections.Generic;//https://github.com/AFLOY/Chat-sys/blob/master/Chat%20sys/Form1.cs
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -54,7 +54,7 @@ namespace Chat_sys
             {
                 idt = "山";
             }
-            if (listBox1.SelectedIndex == 1)
+            if (listBox1.SelectedIndex == 1)//"一"選択中
             {
                 idt = "一";
             }
