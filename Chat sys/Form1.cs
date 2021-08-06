@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
+using System.Collections.Generic;https://github.com/AFLOY/Chat-sys/blob/master/Chat%20sys/Form1.cs
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
