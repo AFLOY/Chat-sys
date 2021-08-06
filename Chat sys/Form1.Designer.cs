@@ -34,15 +34,18 @@ namespace Chat_sys
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // listBox1
             // 
+            this.listBox1.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(12, 47);
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(12, 66);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 388);
+            this.listBox1.Size = new System.Drawing.Size(120, 379);
             this.listBox1.TabIndex = 0;
             // 
             // label1
@@ -60,28 +63,54 @@ namespace Chat_sys
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 19);
             this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "textBox1";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(138, 416);
+            this.textBox2.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox2.Location = new System.Drawing.Point(138, 423);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(590, 19);
+            this.textBox2.Size = new System.Drawing.Size(590, 22);
             this.textBox2.TabIndex = 3;
+            this.textBox2.Text = "textBox2";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(734, 414);
+            this.button1.Location = new System.Drawing.Point(734, 423);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(54, 23);
+            this.button1.Size = new System.Drawing.Size(54, 24);
             this.button1.TabIndex = 4;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(32, 37);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox3.Location = new System.Drawing.Point(138, 12);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(650, 405);
+            this.textBox3.TabIndex = 8;
+            this.textBox3.Text = "textBox3";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 456);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -102,6 +131,8 @@ namespace Chat_sys
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
