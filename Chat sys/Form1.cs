@@ -88,6 +88,11 @@ namespace Chat_sys
             Selectsender();
             DirectoryD();
             Cpath = CF + path;
+            if (File.Exists(Cpath) == false)
+            {
+                Directory.CreateDirectory(CF);
+                File.CreateText(Cpath);
+            }
             StreamReader sr = new StreamReader(Cpath, Encoding.GetEncoding("UTF-8"));
             string str = sr.ReadToEnd();
             sr.Close();
