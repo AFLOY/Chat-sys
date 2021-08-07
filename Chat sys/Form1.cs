@@ -30,7 +30,7 @@ namespace Chat_sys
             listBox1.Items.Add("一");
             textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(textBox2_KeyDown);
             timer.Tick += new EventHandler(timer_Tick);
-            timer.Interval = 1000;
+            timer.Interval = 500;
             timer.Enabled = false;
         }
 
