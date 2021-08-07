@@ -26,8 +26,8 @@ namespace Chat_sys
             textBox3.Text = "";
             button1.Text = "送信";
             button2.Text = "受信開始";
-            listBox1.Items.Add("山田");
-            listBox1.Items.Add("一井");
+            listBox1.Items.Add("山");
+            listBox1.Items.Add("一");
             textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(textBox2_KeyDown);
             timer.Tick += new EventHandler(timer_Tick);
             timer.Interval = 1000;
